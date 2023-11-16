@@ -34,6 +34,11 @@ const Home = () => {
             básicas de desarrollo backend. Enfocado en crear software eficiente
             de alta calidad y siempre buscando aprender y mejorar para
             contribuir de manera efectiva en proyectos de desarrollo web.
+
+            Apasionado desarrollador con experiencia en JavaScript y habilidades
+            básicas de desarrollo backend. Enfocado en crear software eficiente
+            de alta calidad y siempre buscando aprender y mejorar para
+            contribuir de manera efectiva en proyectos de desarrollo web.
           </motion.p>
 
           <div className="flex justify-center xl:hidden relative">
