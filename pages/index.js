@@ -1,4 +1,3 @@
-import Image from "next/Image"; // Cambiado de "next/Image" a "next/image" para seguir la convención de importación
 import { fadeIn } from "../variants";
 import ParticlesContainer from "../components/ParticlesContainer";
 import ProjectsBtn from "../components/ProjectsBtn";
