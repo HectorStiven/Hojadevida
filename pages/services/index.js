@@ -21,7 +21,7 @@ const Services = () => {
               exit="hidden"
               className="h2 xl:mt-8"
             >
-              My Services<span className="text-accent">.</span>
+              Mis Servicios<span className="text-accent">.</span>
             </motion.h2>
             <motion.p
               variants={fadeIn("up", 0.4)}
@@ -30,15 +30,18 @@ const Services = () => {
               exit="hidden"
               className="mb-4 max-w-[400px] mx-auto lg:mx-0"
             >
-              Verify the spelling and capitalization in the import path. Ensure
-              the path is correct and matches the actual location of the
-              animation.js file.
+              Ofrezco servicios especializados en el manejo de lenguajes tanto
+              en el Frontend como en el Backend. Estoy aquí para brindarte
+              soluciones efectivas y de calidad en el desarrollo web.
             </motion.p>
           </div>
-          <motion.div  variants={fadeIn("down", 0.6)}
-              initial="hidden"
-              animate="show"
-              exit="hidden"className="w-full xl:max-w-[65%]">
+          <motion.div
+            variants={fadeIn("down", 0.6)}
+            initial="hidden"
+            animate="show"
+            exit="hidden"
+            className="w-full xl:max-w-[65%]"
+          >
             {/* slider */}
             <ServicesSlider />
           </motion.div>

@@ -16,11 +16,11 @@ const Home = () => {
             exit="hidden"
             className="h1"
           >
-           WED DEVELOP
+           WED DEVELOPER
             <br />
-            <span>{"<>"}</span>
-            <span className="text-accent"> Stiven vigoya.</span>
-            <span>{"</>"}</span>
+            {/* <span>{"<>"}</span> */}
+            <span className="text-accent"> Stiven vigoya M.</span>
+            {/* <span>{"</>"}</span> */}
           </motion.h1>
           <motion.p
             variants={fadeIn("down", 0.4)}
@@ -29,11 +29,6 @@ const Home = () => {
             exit="hidden"
             className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16"
           >
-            Apasionado desarrollador con experiencia en JavaScript y habilidades
-            básicas de desarrollo backend. Enfocado en crear software eficiente
-            de alta calidad y siempre buscando aprender y mejorar para
-            contribuir de manera efectiva en proyectos de desarrollo web.
-
             Apasionado desarrollador con experiencia en JavaScript y habilidades
             básicas de desarrollo backend. Enfocado en crear software eficiente
             de alta calidad y siempre buscando aprender y mejorar para

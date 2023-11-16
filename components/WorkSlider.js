@@ -8,16 +8,16 @@ const workSlides = {
           path: "/work/Bia.png",
         },
         {
-          title: "title",
-          path: "/thumb2.jpg",
+          title: "Cormacarena",
+          path: "/work/2.jpg",
         },
         {
-          title: "title",
-          path: "/thumb3.jpg",
+          title: "Cormacarena",
+          path: "/work/3.jpg",
         },
         {
-          title: "title",
-          path: "/thumb4.jpg",
+          title: "Cormacarena",
+          path: "/work/4.jpg",
         },
       ],
     },
