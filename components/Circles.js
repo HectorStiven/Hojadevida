@@ -1,4 +1,5 @@
-import Image from "next/Image";
+import Image from "next/image";
+
 
 const Circles = () => {
   return (
@@ -20,3 +21,4 @@ mix-blend-color-dodge animate-pulse duration-75 z-10"
 };
 
 export default Circles;
+

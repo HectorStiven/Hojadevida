@@ -31,7 +31,7 @@ import "swiper/css/pagination";
 import { Navigation, Pagination } from "swiper";
 
 import { FaQuoteLeft } from "react-icons/fa";
-import Image from "next/Image";
+import Image from "next/image";
 
 const TestimonialSlider = () => {
   return (
