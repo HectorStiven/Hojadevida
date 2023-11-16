@@ -20,10 +20,10 @@ import {
 // Data
 const aboutData = [
   {
-    title: "skills",
+    title: "Habilidades",
     info: [
       {
-        title: "Web Development",
+        title: "Herramientas Wed",
         icons: [
           <FaHtml5 key="html5" />,
           <FaCss3 key="css3" />,
@@ -35,7 +35,7 @@ const aboutData = [
         ],
       },
       {
-        title: "UI/UX Design",
+        title: "Aplicaciones",
         icons: [
           <FaFigma key="figma" />,
           <SiAdobexd key="adobexd" />,
@@ -45,20 +45,20 @@ const aboutData = [
     ],
   },
   {
-    title: "awards",
+    title: "Premios",
     info: [
       {
-        title: "Webby Awards - Honoree",
-        stage: "2011 - 2012",
+        title: "Ucompensar-Meta",
+        stage: "2023",
       },
       {
-        title: "Adobe Design Achievement Awards - Finalist",
-        stage: "2009 - 2010",
+        title: "Megafiestas Del LLano",
+        stage: "2022",
       },
     ],
   },
   {
-    title: "experience",
+    title: "experiencia",
     info: [
       {
         title: "UX/UI Designer - XYZ Company",
@@ -75,20 +75,17 @@ const aboutData = [
     ],
   },
   {
-    title: "credentials",
+    title: "Lugares ",
     info: [
       {
-        title: "Web Development - ABC University, LA, CA",
-        stage: "2011",
+        title: "Corporacion Univercitaria Ucompensar",
+        stage: "2022",
       },
       {
-        title: "Computer Science Diploma - AV Technical Institute",
-        stage: "2009",
+        title: "Macarenia Corp",
+        stage: "2023",
       },
-      {
-        title: "Certified Graphic Designer - ABC Institute, Los Angeles, CA",
-        stage: "2006",
-      },
+    
     ],
   },
 ];
