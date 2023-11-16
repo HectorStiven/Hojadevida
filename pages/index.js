@@ -17,7 +17,7 @@ const Home = () => {
             exit="hidden"
             className="h1"
           >
-           WED DEVELOPER
+           WED DEVELOPERr
             <br />
             <span>{"<>"}</span>
             <span className="text-accent"> Stiven vigoya.</span>
