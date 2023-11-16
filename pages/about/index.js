@@ -36,7 +36,11 @@ const aboutData = [
       },
       {
         title: "UI/UX Design",
-        icons: [<FaFigma key="figma" />, <SiAdobexd key="adobexd" />, <SiAdobephotoshop key="photoshop" />],
+        icons: [
+          <FaFigma key="figma" />,
+          <SiAdobexd key="adobexd" />,
+          <SiAdobephotoshop key="photoshop" />,
+        ],
       },
     ],
   },
@@ -97,6 +101,10 @@ import CountUp from "react-countup";
 
 const About = () => {
   const [index, setIndex] = useState(0);
+  const currentYear = new Date().getFullYear();
+  const experiencia_años = currentYear - 2021;
+  const Proyectos_trabajados=3;
+  const Primios_Ganados=2;
 
   return (
     <div className="h-full bg-primary/30 py-32 text-center xl:text-left">
@@ -120,8 +128,8 @@ const About = () => {
             exit="hidden"
             className="h2"
           >
-            Captivating <span className="text-accent">stories</span> birth
-            magnificent designs
+            Conocimientos <span className="text-accent">& </span>
+            Habilidades en desarrollo
           </motion.h2>
           <motion.p
             variants={fadeIn("right", 0.4)}
@@ -130,31 +138,38 @@ const About = () => {
             exit="hidden"
             className="max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0"
           >
-            10 years ago, I began freelancing as a developer. Since then, Ive
-            done remote work for agencies, consulted for startups, and
-            collaborated on digital products for business and consumer use.
+            Desde el año 2021, he acumulado experiencia en el campo del
+            desarrollo web, trabajando con diversos frameworks como React y
+            Django. Durante este tiempo, he abordado tanto el desarrollo
+            frontend como el backend, adquiriendo habilidades y conocimientos en
+            diferentes aspectos de la creación de aplicaciones web.
           </motion.p>
 
-          <motion.div  variants={fadeIn("right", 0.6)}
-                initial="hidden"
-                animate="show"
-                exit="hidden" className="flex flex-1 xl:gap-x-6">
+          <motion.div
+            variants={fadeIn("right", 0.6)}
+            initial="hidden"
+            animate="show"
+            exit="hidden"
+            className="flex flex-1 xl:gap-x-6"
+          >
             <div>
-              <div   className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0  after:right-0"
-              >
+              <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0  after:right-0">
                 <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
-                  <CountUp start={0} end={10} duration={15} />+
+                  <CountUp start={0} end={experiencia_años} duration={15} />
+                  <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">
+                    años
+                  </div>
                 </div>
 
                 <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">
-                  years of experience
+                  experiencia
                 </div>
               </div>
             </div>
 
             <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0  after:right-0">
               <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
-                <CountUp start={0} end={250} duration={15} />+
+                <CountUp start={0} end={Proyectos_trabajados} duration={15} />+
               </div>
 
               <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">
@@ -164,7 +179,7 @@ const About = () => {
 
             <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0  after:right-0">
               <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
-                <CountUp start={0} end={250} duration={15} />+
+                <CountUp start={0} end={Proyectos_trabajados} duration={15} />+
               </div>
 
               <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">
@@ -175,20 +190,23 @@ const About = () => {
 
             <div className="relative flex-1">
               <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
-                <CountUp start={0} end={4} duration={15} />+
+                <CountUp start={0} end={Primios_Ganados} duration={15} />+
               </div>
 
               <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">
-                Winning awards{" "}
+              Premios ganadores
               </div>
             </div>
           </motion.div>
         </div>
 
-        <motion.div  variants={fadeIn("left", 0.6)}
-                initial="hidden"
-                animate="show"
-                exit="hidden"  className="flex flex-col w-full xl:max-w-[48%] h-[480px]">
+        <motion.div
+          variants={fadeIn("left", 0.6)}
+          initial="hidden"
+          animate="show"
+          exit="hidden"
+          className="flex flex-col w-full xl:max-w-[48%] h-[480px]"
+        >
           <div className="flex gap-x-4 xl:gap-x-8 mx-auto xl:mx-0 mb-4">
             {aboutData.map((item, itemIndex) => {
               return (
@@ -210,29 +228,28 @@ const About = () => {
           </div>
 
           <div className="py-2 xl:py-6 flex flex-col gap-y-2 xl:gap-y-4 items-center xl:items-start">
-          {aboutData[index].info.map((item, itemIndex) => {
+            {aboutData[index].info.map((item, itemIndex) => {
               return (
-    <div
-      key={itemIndex}  
-      className="flex-1 flex flex-col md:flex-row max-w-max gap-x-2 items-center text-white/60"
-    >
- f     <div className="font-Light mb-2 md:mb-0">{item.title}</div>
-      <div className="hidden md:flex">-</div>
-      <div>{item.stage}</div>
-      <div className="flex gap-x-4">
-        {item.icons &&
-          item.icons.map((icon, iconIndex) => {
-            return (
-              <div className="text-2xl text-white" key={iconIndex}>
-                {icon}
-              </div>
-            );
-          })}
-      </div>
-    </div>
-  );
-})}
-       
+                <div
+                  key={itemIndex}
+                  className="flex-1 flex flex-col md:flex-row max-w-max gap-x-2 items-center text-white/60"
+                >
+                  f <div className="font-Light mb-2 md:mb-0">{item.title}</div>
+                  <div className="hidden md:flex">-</div>
+                  <div>{item.stage}</div>
+                  <div className="flex gap-x-4">
+                    {item.icons &&
+                      item.icons.map((icon, iconIndex) => {
+                        return (
+                          <div className="text-2xl text-white" key={iconIndex}>
+                            {icon}
+                          </div>
+                        );
+                      })}
+                  </div>
+                </div>
+              );
+            })}
           </div>
         </motion.div>
       </div>

@@ -1,4 +1,3 @@
-
 import WorkSlider from "../../components/WorkSlider";
 import Bulb from "../../components/Bulb";
 import Circles from "../../components/Circles";
@@ -11,7 +10,7 @@ const Work = () => {
       <Circles />
 
       <div className="container mx-auto">
-      <div className="flex flex-col xl:flex-row gap-x-8">
+        <div className="flex flex-col xl:flex-row gap-x-8">
           {/* text */}
           <div className="text-center flex xl:w-[30vw] flex-col lg:text-left mb-4 xl:mb-0">
             <motion.h2
@@ -21,7 +20,7 @@ const Work = () => {
               exit="hidden"
               className="h2 xl:mt-12"
             >
-              My work<span className="text-accent">.</span>
+              Mi Trabajo<span className="text-accent">.</span>
             </motion.h2>
             <motion.p
               variants={fadeIn("up", 0.4)}
@@ -30,13 +29,18 @@ const Work = () => {
               exit="hidden"
               className="mb-4 max-w-[400px] mx-auto lg:mx-0"
             >
-          trabajo como developer haker
+              Me desempeño en empresas de desarrollo web, donde tengo la
+              responsabilidad de diseñar plataformas para la eficiente
+              administración de datos.
             </motion.p>
           </div>
-          <motion.div  variants={fadeIn("down", 0.6)}
-              initial="hidden"
-              animate="show"
-              exit="hidden"className="w-full xl:max-w-[65%]">
+          <motion.div
+            variants={fadeIn("down", 0.6)}
+            initial="hidden"
+            animate="show"
+            exit="hidden"
+            className="w-full xl:max-w-[65%]"
+          >
             {/* slider */}
             <WorkSlider />
           </motion.div>

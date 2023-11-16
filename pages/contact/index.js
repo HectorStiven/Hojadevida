@@ -12,17 +12,17 @@ const Contact = () => {
         <div className="flex flex-col w-full max-w-[700px] ">
           {/* texto */}
           <motion.h2 variants={fadeIn("up",0.2)} initial="hidden" animate="show" exit="show"  className="h2 text-center mb-12">
-            lets <span className="text-accent">connect.</span>
+            Contactame <span className="text-accent">Aqui.</span>
           </motion.h2>
 
           {/* forma */}
           <motion.form  variants={fadeIn("up",0.4)} initial="hidden" animate="show"  exit="hidden" className="flex-1 flex flex-col gap-6 w-full mx-auto">
             {/* input grupo */}
             <div className="flex gap-x-6 w-full">
-              <input type="text" placeholder="name" className="input" />
+              <input type="text" placeholder="nombre " className="input" />
               <input type="text" placeholder="email" className="input" />
             </div>
-            <input type="text" placeholder="subject" className="input" />
+            <input type="text" placeholder="asunto" className="input" />
             <textarea placeholder="message" className="textarea" />
 
             <button
@@ -30,7 +30,7 @@ const Contact = () => {
                flex items-center justify-center overflow-hidden hover:border-accent group"
             >
               <span className="group-hover:-translate-y-[120%] group-hover:opacity-0 transition-all duration-500">
-                lets talk{" "}
+                Contactar{" "}
               </span>
               <BsArrowRight
                 className="-translate-y-[120%] opacity-0 group-hover:flex group-hover:-translate-y-0 group-hover:opacity-100 transition-all

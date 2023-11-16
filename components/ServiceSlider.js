@@ -17,28 +17,28 @@ import {
 const serviceData = [
   {
     icon: <RxCrop />,
-    title: "Branding",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-  },
-  {
-    icon: <RxPencil2 />,
-    title: "Design",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    title: "Back_End",
+    description: "Manejo del framework Django.",
   },
   {
     icon: <RxDesktop />,
-    title: "Development",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    title: "Front-End",
+    description: "Manejo del framework React y next.js .",
+  },
+  {
+    icon: < RxPencil2/>,
+    title: "Diseño",
+    description: "manejo de herramientas de diseño Photoshop.",
   },
   {
     icon: <RxReader />,
-    title: "Copywriting",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    title: "Modelado De Datos",
+    description: "Manejo de bases de datos en PostgreSQL.",
   },
   {
     icon: <RxRocket />,
-    title: "SEO",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    title: "Despliegue",
+    description: "Experiencia desplegando sitios web.",
   },
 ];
 
