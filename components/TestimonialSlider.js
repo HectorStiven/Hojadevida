@@ -1,27 +1,51 @@
 // testimonial data
 const testimonialData = [
   {
-    image: "/t-avt-1.png",
-    name: "Anne Smith",
-    position: "Customer",
+    image: "/Clientes/cormacarena.jpg",
+    name: "Cormacarena",
+    position: "Empresa especializada en el medio ambiente",
     message:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!",
+      "Cormacarena se dedica a la conservación y protección del medio ambiente, brindando soluciones sostenibles para el desarrollo.",
   },
   {
     image: "/t-avt-2.png",
-    name: "Jane Doe",
-    position: "Customer",
+    name: "Carriel Beer",
+    position: "Discoteca",
     message:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!",
+      "Carriel Beer es un lugar nocturno vibrante, ideal para disfrutar de música y buena compañía en un ambiente festivo.",
   },
   {
-    image: "/t-avt-3.png",
-    name: "Jhon Doe",
-    position: "Customer",
+    image: "/Clientes/megafiesta.jpeg",
+    name: "Megafiestas",
+    position: "Empresa de inventarios de equipos de efectos especiales",
     message:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!",
+      "Megafiestas ofrece servicios de inventario y suministro de equipos de efectos especiales para eventos memorables.",
+  },
+  {
+    image: "/Clientes/macarenia.jpeg",
+    name: "Macarenia",
+    position: "Desarrollo web",
+    message:
+      "Macarenia se especializa en el desarrollo web, creando soluciones digitales efectivas y personalizadas para sus clientes.",
+  },
+  {
+    image: "/t-avt-5.png",
+    name: "Biblioteca Compensar",
+    position: "Biblioteca",
+    message:
+      "Biblioteca Compensar promueve el conocimiento y la cultura, ofreciendo una amplia gama de recursos y servicios a la comunidad. ",
+  },
+  {
+    image: "/Clientes/colpegasus.jpg",
+    name: "Colpegasus",
+    position: "Regulador de plataformas escolares",
+    message:
+      "Colpegasus maneja y regula la plataforma de diversos colegios, asegurando una educación de calidad y recursos accesibles.",
   },
 ];
+
+const numeros=[1,2,3];
+
 
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
