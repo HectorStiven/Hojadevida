@@ -29,10 +29,11 @@ const Home = () => {
             exit="hidden"
             className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16"
           >
-            Apasionado desarrollador con experiencia en JavaScript y habilidades
-            básicas de desarrollo backend. Enfocado en crear software eficiente
-            de alta calidad y siempre buscando aprender y mejorar para
-            contribuir de manera efectiva en proyectos de desarrollo web.
+             Desarrollador full-stack especializado en frontend con TypeScript y backend con Python. 
+        Además de crear interfaces de usuario modernas y sistemas backend eficientes, 
+        tengo experiencia en modelar datos y desplegar servicios robustos. Mi enfoque
+         integral me permite construir aplicaciones escalables y optimizadas, garantizando 
+         un flujo de trabajo completo, desde la base de datos hasta el usuario final.
           </motion.p>
 
           <div className="flex justify-center xl:hidden relative">
