@@ -5,6 +5,7 @@ import "swiper/css/free-mode";
 import "swiper/css/pagination";
 import { FreeMode, Pagination } from "swiper";
 
+
 import {
   RxCrop,
   RxPencil2,
