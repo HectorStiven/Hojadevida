@@ -1,46 +1,53 @@
 // testimonial data
 const testimonialData = [
   {
-    image: "/Clientes/cormacarena.jpg",
+    image: "/Clientes/cormacarena.png",
     name: "Cormacarena",
     position: "Empresa especializada en el medio ambiente",
     message:
       "Cormacarena se dedica a la conservación y protección del medio ambiente, brindando soluciones sostenibles para el desarrollo.",
   },
   {
-    image: "/t-avt-2.png",
+    image: "/Clientes/Carriel beer.jpg",
     name: "Carriel Beer",
     position: "Discoteca",
     message:
       "Carriel Beer es un lugar nocturno vibrante, ideal para disfrutar de música y buena compañía en un ambiente festivo.",
   },
   {
-    image: "/Clientes/megafiesta.jpeg",
+    image: "/Clientes/Megafiestas.jpg",
     name: "Megafiestas",
     position: "Empresa de inventarios de equipos de efectos especiales",
     message:
       "Megafiestas ofrece servicios de inventario y suministro de equipos de efectos especiales para eventos memorables.",
   },
   {
-    image: "/Clientes/macarenia.jpeg",
+    image: "/Clientes/macarenia.jpg",
     name: "Macarenia",
     position: "Desarrollo web",
     message:
       "Macarenia se especializa en el desarrollo web, creando soluciones digitales efectivas y personalizadas para sus clientes.",
   },
   {
-    image: "/t-avt-5.png",
+    image: "/Clientes/Ucompensar.jpg",
     name: "Biblioteca Compensar",
     position: "Biblioteca",
     message:
       "Biblioteca Compensar promueve el conocimiento y la cultura, ofreciendo una amplia gama de recursos y servicios a la comunidad. ",
   },
   {
-    image: "/Clientes/colpegasus.jpg",
+    image: "/Clientes/colpegaus.webp",
     name: "Colpegasus",
     position: "Regulador de plataformas escolares",
     message:
       "Colpegasus maneja y regula la plataforma de diversos colegios, asegurando una educación de calidad y recursos accesibles.",
+  },
+  {
+    image: "/Clientes/papelfantasia.png",
+    name: "Papel y Fatasia",
+    position: "Papeleria y jugueteria",
+    message:
+      "reconocida distribuidora de papelería y juguetes, ofreciendo una amplia variedad de productos para todas las edades.",
   },
 ];
 

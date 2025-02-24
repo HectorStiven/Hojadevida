@@ -25,19 +25,19 @@ const workSlides = {
       images: [
         {
           title: "title",
-          path: "/work/Bia.png",
+          path: "/work/5.png",
         },
         {
           title: "title",
-          path: "/thumb1.jpg",
+          path: "/work/6.png",
         },
         {
           title: "title",
-          path: "/thumb2.jpg",
+          path: "/work/7.png",
         },
         {
           title: "title",
-          path: "/thumb3.jpg",
+          path: "/work/8.png",
         },
       ],
     },
@@ -45,19 +45,19 @@ const workSlides = {
       images: [
         {
           title: "title",
-          path: "/thumb4.jpg",
+          path: "/work/10.png",
         },
         {
           title: "title",
-          path: "/thumb1.jpg",
+          path: "/work/11.png",
         },
         {
           title: "title",
-          path: "/thumb2.jpg",
+          path: "/work/12.png",
         },
         {
           title: "title",
-          path: "/thumb3.jpg",
+          path: "/work/13.png",
         },
       ],
     },
